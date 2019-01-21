@@ -1,13 +1,17 @@
 {
-  "name": "y",
-  "version": "y",
-  "description": "y",
-  "main": "y",
-  "repository": "y",
-  "author": "y",
-  "license": "y",
+  "name": "full-stack-exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cameron-nepe",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server"
+  },
   "private": true,
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "nodemon": "^1.18.9",
+    "sqlite3": "^4.0.6"
   }
 }
