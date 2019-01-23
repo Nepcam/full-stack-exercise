@@ -1,4 +1,4 @@
-const colours = require('./data')
+const colours = require('./datawo')
 
 function getColours() {
 
